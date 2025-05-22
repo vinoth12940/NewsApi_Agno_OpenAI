@@ -1,8 +1,16 @@
 # Location-Based News API (Agno + OpenAI)
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-NewsApi_Agno_OpenAI-blue?style=for-the-badge&logo=github)](https://github.com/vinoth12940/NewsApi_Agno_OpenAI)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.12-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=for-the-badge&logo=docker)](https://docker.com)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-orange?style=for-the-badge&logo=openai)](https://openai.com)
+
 A production-ready FastAPI application that delivers comprehensive news coverage for any location using the Agno agent framework, OpenAI GPT-4o, and advanced reverse geocoding. The app coordinates a team of specialized AI agents to search, analyze, and synthesize news articles into professional-quality reports.
 
 **🆕 Latest Update**: Fixed structured response parsing and removed raw content for clean UI integration!
+
+**📍 Repository**: [https://github.com/vinoth12940/NewsApi_Agno_OpenAI](https://github.com/vinoth12940/NewsApi_Agno_OpenAI)
 
 ---
 
@@ -37,8 +45,8 @@ The application uses a **team-based AI architecture** with specialized agents:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/NewsApp_Agno.git
-cd NewsApp_Agno
+git clone https://github.com/vinoth12940/NewsApi_Agno_OpenAI.git
+cd NewsApi_Agno_OpenAI
 ```
 
 ### 2. Create and activate virtual environment
@@ -90,6 +98,40 @@ Open your browser and go to:
 - **API Documentation**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **Health Check**: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 - **Test Endpoint**: [http://127.0.0.1:8000/test-news/structured](http://127.0.0.1:8000/test-news/structured)
+
+---
+
+## 🌟 GitHub Repository
+
+This project is hosted on GitHub at: **[https://github.com/vinoth12940/NewsApi_Agno_OpenAI](https://github.com/vinoth12940/NewsApi_Agno_OpenAI)**
+
+### 🚀 Quick Deploy from GitHub
+
+```bash
+# Clone the repository
+git clone https://github.com/vinoth12940/NewsApi_Agno_OpenAI.git
+cd NewsApi_Agno_OpenAI
+
+# Set up environment
+echo "OPENAI_API_KEY=your-key-here" > .env
+
+# Deploy with Docker (recommended)
+docker compose up -d
+
+# Or run locally
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+```
+
+### 📋 Repository Features
+
+- ✅ **Complete codebase** - All source files and configurations
+- ✅ **Docker ready** - One-command deployment
+- ✅ **Testing tools** - Validation and testing scripts included
+- ✅ **Documentation** - Comprehensive README and examples
+- ✅ **Production ready** - Health checks, monitoring, error handling
 
 ---
 
@@ -805,13 +847,13 @@ curl http://your-domain.com/health
 
 ## 🤝 Contributing
 
-1. Fork the repository
+1. Fork the repository: [https://github.com/vinoth12940/NewsApi_Agno_OpenAI](https://github.com/vinoth12940/NewsApi_Agno_OpenAI)
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
 4. Add tests if applicable
 5. Commit your changes (`git commit -m 'Add amazing feature'`)
 6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+7. Open a Pull Request on GitHub
 
 ### Development Guidelines
 - Follow PEP 8 style guidelines
@@ -855,5 +897,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ using Agno, OpenAI GPT-4o, and FastAPI**
+
+**🌟 Star the repository**: [https://github.com/vinoth12940/NewsApi_Agno_OpenAI](https://github.com/vinoth12940/NewsApi_Agno_OpenAI)
 
 **Ready to clone and run! 🚀** 
