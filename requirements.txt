@@ -1,0 +1,47 @@
+# Core FastAPI and server dependencies
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+starlette==0.46.2
+
+# AI and Agent framework dependencies
+agno==1.5.3
+openai==1.81.0
+google-genai==1.16.1
+
+# Data validation and configuration
+pydantic==2.11.4
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+
+# News and web scraping tools
+newspaper4k==0.9.3.1
+duckduckgo-search==8.0.2
+beautifulsoup4==4.13.4
+lxml==5.4.0
+lxml_html_clean==0.4.2
+
+# Geocoding and location services
+geopy==2.4.1
+
+# HTTP client and networking
+httpx==0.28.1
+requests==2.32.3
+
+# Natural language processing
+nltk==3.9.1
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.6
+
+# Development and testing
+pytest==8.3.5
+pytest-asyncio
+
+# Utility libraries
+python-multipart==0.0.20
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+rich==14.0.0
+typer==0.15.4
+click==8.1.8
